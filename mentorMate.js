@@ -30,11 +30,11 @@ function printMentorMateLogo(n) {
         increasingElementTwoSteps += 2;
         decreasingElementTwoSteps -= 2;
         console.log((dash.repeat(decreasingElementOneStep) +
-            star.repeat(n) + // stable element
+            star.repeat(n) +
             dash.repeat(increasingElementTwoSteps) +
             star.repeat(decreasingElementTwoSteps) +
             dash.repeat(increasingElementTwoSteps) +
-            star.repeat(n) + // stable element
+            star.repeat(n) + 
             dash.repeat(decreasingElementOneStep)).repeat(2));
         decreasingElementOneStep -= 1; 
     }
